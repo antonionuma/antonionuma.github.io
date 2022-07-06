@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-#title: "About"
+title: "About me!"
 ---
 
-# About me!
+Things I Like to share...
