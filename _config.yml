@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My WebSite"
+title                    : "Antonionuma's blog. Things I Like..."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Antonionuma"
@@ -107,9 +107,9 @@ analytics:
 author:
   name             : "Antonionuma"
   avatar           : "/assets/images/me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Things I Like..."
+  bio              : "Cloud Solutions Architect"
   #location         : "Somewhere"
-  email            : "cruces81@gmail.com"
+  #email            : "cruces81@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
