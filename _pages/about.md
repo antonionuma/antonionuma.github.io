@@ -1,1 +1,6 @@
-About me!
+---
+permalink: /about/
+title: "About"
+---
+
+# About me!
