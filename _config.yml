@@ -15,7 +15,7 @@ title                    : "Things I Like"
 title_separator          : "-"
 subtitle                 : "Antonionuma's Blog"
 name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+description              : &description "My website to share tips."
 url                      : https://antonionuma.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : antonionuma/antonionuma.github.io #"antonionuma.github.io"
@@ -99,21 +99,27 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/michael-rose.jpg"
-  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Buffalo, NY"
+  bio              : ""Cloud Solutions Architect""
+  location         : #"Buffalo, NY"
   links:
-    - label: "Made Mistakes"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cruces81@gmail.com"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+      url: "https://antonionuma.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/cruces81"
+    #- label: "Facebook"
+      #icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/antonionuma"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
 
 
 # Site Footer
@@ -121,13 +127,22 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/cruces81"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/antonionuma"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      # url:
 
 
 # Reading Files
