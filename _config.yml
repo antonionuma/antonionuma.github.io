@@ -11,9 +11,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Things I Like"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
+subtitle                 : "Antonionuma's Blog"
 name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://antonionuma.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
