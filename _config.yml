@@ -5,6 +5,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# TIPS to install
+# bundle exec jekyll serve --livereload
+# bundle add webrick
+# bundle install
+# bundle update
+
+
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -14,8 +21,8 @@ locale                   : "en-US"
 title                    : "Things I Like"
 title_separator          : "-"
 subtitle                 : "Antonionuma's Blog"
-name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
-description              : &description "My website to share tips."
+name                     : &name "Antonionuma" # &name is a YAML anchor which can be *referenced later
+description              : &description "My website to share tips"
 url                      : https://antonionuma.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : antonionuma/antonionuma.github.io #"antonionuma.github.io"
@@ -72,9 +79,9 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : &twitter "cruces81"
 facebook:
-  username               : &facebook "michaelrose"
+  username               : &facebook "antonionuma"
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
@@ -84,8 +91,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://www.facebook.com/michaelrose"
+    - "https://twitter.com/cruces81"
+    - "https://www.facebook.com/antonionuma"
 
 # Analytics
 analytics:
@@ -100,7 +107,7 @@ author:
   name             : "Antonionuma" # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/me.jpg"
   bio              : "Cloud Solutions Architect"
-  location         : #"Buffalo, NY"
+  location         : "Chile, RM"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

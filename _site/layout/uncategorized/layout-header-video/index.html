@@ -173,7 +173,7 @@
 
 
 
-<!-- Courtesy of embedresponsively.com //-->
+<!-- Courtesy of embedresponsively.com -->
 
   <div class="responsive-video-container">
     <iframe src="https://www.youtube-nocookie.com/embed/-PVofD2A9t8" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
@@ -191,22 +191,22 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
     <div class="author__avatar">
-      
-        <img src="/assets/images/me.jpg" alt="Antonionuma" itemprop="image">
-      
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/me.jpg" alt="Antonionuma" itemprop="image" class="u-photo">
+      </a>
     </div>
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Antonionuma</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Antonionuma</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>Cloud Solutions Architect</p>
 
       </div>
@@ -221,19 +221,19 @@
       
         
           
-            <li><a href="mailto:cruces81@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+            <li><a href="mailto:cruces81@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
           
         
           
-            <li><a href="https://antonionuma.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+            <li><a href="https://antonionuma.github.io" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
           
         
           
-            <li><a href="https://twitter.com/cruces81" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+            <li><a href="https://twitter.com/cruces81" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
           
         
           
-            <li><a href="https://github.com/antonionuma" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/antonionuma" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
       
@@ -288,7 +288,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -372,7 +372,7 @@
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"-PVofD2A9t8"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"youtube"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
-<!-- Courtesy of embedresponsively.com //-->
+<!-- Courtesy of embedresponsively.com -->
 
 <div class="responsive-video-container">
     <iframe src="https://www.youtube-nocookie.com/embed/-PVofD2A9t8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -393,7 +393,7 @@
 <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">video</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"212731897"</span><span class="w"> </span><span class="na">provider</span><span class="o">=</span><span class="s2">"vimeo"</span><span class="w"> </span><span class="p">%}</span>
 </code></pre></div></div>
 
-<!-- Courtesy of embedresponsively.com //-->
+<!-- Courtesy of embedresponsively.com -->
 
 <div class="responsive-video-container">
     <iframe src="https://player.vimeo.com/video/212731897?dnt=true" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -422,9 +422,9 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#layout" class="page__taxonomy-item" rel="tag">layout</a><span class="sep">, </span>
+      <a href="/tags/#layout" class="page__taxonomy-item p-category" rel="tag">layout</a><span class="sep">, </span>
     
-      <a href="/tags/#video" class="page__taxonomy-item" rel="tag">video</a>
+      <a href="/tags/#video" class="page__taxonomy-item p-category" rel="tag">video</a>
     
     </span>
   </p>
@@ -441,9 +441,9 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#layout" class="page__taxonomy-item" rel="tag">Layout</a><span class="sep">, </span>
+      <a href="/categories/#layout" class="page__taxonomy-item p-category" rel="tag">Layout</a><span class="sep">, </span>
     
-      <a href="/categories/#uncategorized" class="page__taxonomy-item" rel="tag">Uncategorized</a>
+      <a href="/categories/#uncategorized" class="page__taxonomy-item p-category" rel="tag">Uncategorized</a>
     
     </span>
   </p>
@@ -451,8 +451,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2017-01-23T00:00:00+00:00">January 23, 2017</time></p>
-
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2017-01-23T00:00:00+00:00">January 23, 2017</time></p>
 
       </footer>
 
@@ -751,8 +750,9 @@ const search = instantsearch({
 
 const hitTemplate = function(hit) {
   const url = hit.url;
-  const title = hit._highlightResult.title.value;
-  const content = hit._highlightResult.html.value;
+  const hightlight = hit._highlightResult;
+  const title = hightlight.title && hightlight.title.value  || "";
+  const content = hightlight.html && hightlight.html.value  || "";
 
   return `
     <div class="list__item">
