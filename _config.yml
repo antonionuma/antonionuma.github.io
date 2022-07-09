@@ -10,6 +10,7 @@
 # bundle add webrick
 # bundle install
 # bundle update
+# bundle exec jekyll build
 
 
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
@@ -22,7 +23,7 @@ title                    : "Things I Like"
 title_separator          : "-"
 subtitle                 : "Antonionuma's Blog"
 name                     : &name "Antonionuma" # &name is a YAML anchor which can be *referenced later
-description              : &description "My website to share tips"
+description              : &description "My website to share some tips about cloud"
 url                      : https://antonionuma.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : antonionuma/antonionuma.github.io #"antonionuma.github.io"

@@ -34,7 +34,7 @@ main:
 
 # documentation links
 docs:
-  - title: Getting Started
+  - title: AWS
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
@@ -44,7 +44,7 @@ docs:
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
-  - title: Customization
+  - title: Azure
     children:
       - title: "Configuration"
         url: /docs/configuration/
@@ -58,7 +58,7 @@ docs:
         url: /docs/authors/
       - title: "Layouts"
         url: /docs/layouts/
-  - title: Content
+  - title: GCP
     children:
       - title: "Working with Posts"
         url: /docs/posts/
@@ -76,18 +76,18 @@ docs:
         url: /docs/stylesheets/
       - title: "JavaScript"
         url: /docs/javascript/
-  - title: Meta
-    children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+#- title: Meta
+#    children:
+#      - title: "History"
+#        url: /docs/history/
+#      - title: "Contributing"
+#        url: /docs/contributing/
+#      - title: "Old 2.2 Docs"
+#        url: /docs/docs-2-2/
+#      - title: "License"
+#        url: /docs/license/
+#      - title: "Terms &amp; Privacy Policy"
+#        url: /terms/
 
 # sidebar navigation list sample
 sidebar-sample:
